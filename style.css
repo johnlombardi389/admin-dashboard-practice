@@ -28,8 +28,27 @@ body {
 }
 
 main {
-  margin-left: 300px;
+  margin-left: 320px;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 90vh 1fr;
+  grid-template-rows: 1fr;
+}
+
+header {
+  display: flex;
+}
+
+.user {
+  display: flex;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-auto-rows: minmax(300px, auto);
+  grid-gap: 20px;
+}
+
+.info-card {
+  background-color: pink;
 }
