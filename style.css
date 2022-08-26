@@ -44,7 +44,7 @@ header > h1 {
   display: flex;
 }
 
-.cards {
+.sections {
   display: grid;
   grid-template-columns: repeat(3, 400px);
   grid-auto-rows: minmax(300px, auto);
@@ -57,10 +57,10 @@ header > h1 {
   background-color: pink;
 }
 
-.span-two {
+.span-two-col {
   grid-column: span 2;
 }
 
-.span-two-rows {
+.span-two-row {
   grid-row: span 2;
 }
