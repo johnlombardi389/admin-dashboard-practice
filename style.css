@@ -60,3 +60,7 @@ header > h1 {
 .span-two {
   grid-column: span 2;
 }
+
+.span-two-rows {
+  grid-row: span 2;
+}
