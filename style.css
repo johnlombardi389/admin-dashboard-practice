@@ -51,6 +51,27 @@ header {
   margin: 20px;
 }
 
+.btn  {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 12px;
+  border-radius: 50px;
+  margin-left: 10px;
+  height: 25px;
+}
+
+.btn-share {
+  background-color: var(--color-dark);
+  width: 75px;
+}
+
+.btn-edit {
+  background-color: var(--text-grey);
+  width: 100px;
+}
+
 .sections {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
