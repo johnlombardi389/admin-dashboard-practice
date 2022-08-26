@@ -44,13 +44,20 @@ header > h1 {
   display: flex;
 }
 
+.dashboard-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
 .sections {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(300px, auto);
   grid-gap: 20px;
   justify-content: flex-start;
-  margin: 20px 0px 0px 20px;
+  margin: 0px 20px 0px 20px;
 }
 
 .section{
