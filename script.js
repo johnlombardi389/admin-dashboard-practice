@@ -1,8 +1,5 @@
 
+// Get current date for tasks section
 const date = new Date();
-let day = date.getDate();
-let month = date.getMonth() + 1;
-let year = date.getFullYear();
-
-let today = `${day}-${month}-${year}`;
+let today = date.toLocaleDateString();
 document.getElementById('date-time').innerHTML = today;
