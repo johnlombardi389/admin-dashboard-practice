@@ -17,3 +17,19 @@ body {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
+
+.sidebar {
+  width: 300px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background-color: var(--main-color);
+}
+
+main {
+  margin-left: 300px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 90vh 1fr;
+}
