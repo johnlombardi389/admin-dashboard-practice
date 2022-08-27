@@ -104,6 +104,11 @@ header {
   grid-row: span 2;
 }
 
+.section-titles {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
 .project-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -129,4 +134,9 @@ header {
 .card > p {
   color: var(--text-grey);
   font-size: 12px;
+}
+
+#sectionTwo {
+  display: flex;
+  justify-content: space-between;
 }
