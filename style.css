@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --main-color: #DD2F6E;
+  --sidebar-color: #FAFAFA;
+  --accent-color: #EB4872;
+  --btn-color: #592BE7;
   --color-dark: #1D2231;
-  --text-grey: #8390A2;
+  --header-color: #585858;
+  --text-grey: #B0B1C1;
 }
 
 *, *::before, *::after {
@@ -16,6 +19,7 @@ body {
   list-style-type: none;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
+  background-color: white;
 }
 
 .sidebar {
@@ -24,7 +28,7 @@ body {
   left: 0;
   top: 0;
   height: 100vh;
-  background-color: var(--main-color);
+  background-color: var(--sidebar-color);
 }
 
 main {
@@ -55,7 +59,6 @@ header {
   cursor: pointer;
   border: none;
   outline: none;
-  color: white;
   font-size: 12px;
   border-radius: 50px;
   margin-left: 10px;
@@ -63,12 +66,14 @@ header {
 }
 
 .btn-share {
-  background-color: var(--color-dark);
+  background-color: var(--btn-color);
+  color: white;
   width: 75px;
 }
 
 .btn-edit {
-  background-color: var(--text-grey);
+  background-color: var(--header-color);
+  color: white;
   width: 100px;
 }
 
