@@ -22,14 +22,20 @@ body {
   background-color: white;
   display: grid;
   grid-template-columns: 1fr 7fr;
+  grid-template-rows: auto;
 }
 
 .sidebar {
-  width: 250px;
-  position: relative;
-  background-color: var(--sidebar-color);
-  display: flex;
-  flex-direction: column;
+  user-select: none;
+  background-color: var(--btn-color);
+}
+
+nav {
+  margin-left: 10px;
+}
+
+nav > a {
+  text-decoration: none;
 }
 
 header {
