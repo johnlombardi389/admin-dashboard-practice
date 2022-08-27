@@ -125,6 +125,10 @@ header {
   cursor: pointer;
 }
 
+.card:hover {
+  box-shadow: rgba(83, 83, 83, 0.2) 0px 4px 10px 0px;
+}
+
 .card > h3 {
   color: var(--header-color);
   font-size: 16px;
@@ -134,6 +138,13 @@ header {
 .card > p {
   color: var(--text-grey);
   font-size: 12px;
+}
+
+.see-all {
+  text-align: right;
+  margin-top: 20px;
+  font-size: 12px;
+  color: var(--btn-color);
 }
 
 #sectionTwo {
